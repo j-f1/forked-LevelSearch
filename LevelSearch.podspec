@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/*.h'
   s.frameworks = 'Foundation', 'CoreData'
   s.dependency 'Objective-LevelDB', '~> 2.1.5'
-  s.dependency 'MessagePack', '~> 1.0.0'
+  s.dependency 'MessagePack'
 
 end
