@@ -7,8 +7,8 @@
 //
 
 #import "LSIndex.h"
-#import <LevelDB.h>
-#import <LDBWriteBatch.h>
+#import "LevelDB.h"
+#import "LDBWriteBatch.h"
 #import <MessagePack/MessagePack.h>
 
 static NSString * const LSIndexCacheSizeSetting = @"LSIndexCacheSizeSetting";
