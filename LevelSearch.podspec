@@ -7,15 +7,15 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/smyrgl/LevelSearch'
   s.source           = { :git => "https://github.com/smyrgl/LevelSearch.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '15.0'
+  # s.osx.deployment_target = '10.9'
   s.requires_arc = true
 
   s.source_files = 'Classes'
   s.resource_bundles = { 'LevelSearchAssets' => 'Assets/*.txt' }
   s.public_header_files = 'Classes/*.h'
   s.frameworks = 'Foundation', 'CoreData'
-  s.dependency 'Objective-LevelDB', '~> 2.0.7'
+  s.dependency 'Objective-LevelDB', '~> 2.1.5'
   s.dependency 'MessagePack', '~> 1.0.0'
 
 end
